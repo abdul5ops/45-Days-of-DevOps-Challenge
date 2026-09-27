@@ -1,0 +1,12 @@
+Day 4/45 of my #45DaysofDevOps challenge - Hands-on Linux Troubleshooting!
+Yesterday I studied the theory of Linux Process Management. Today, I put that knowledge into practice inside a live Linux terminal, focusing on File Permissions and Log Inspection.
+What I implemented today:
+Task 1: Fixing log Permissions
+Used chmod 755 /var/log/auth.log to change restricted permissions. This ensures the file is readable and executable by all users, while keeping write access restricted to the owner. Verified the changes using ls -1.
+Task 2: Extracting IP Addresses with Grep
+Used grep -i -nE "192\. 168 | 10\ .0" /var/log/syslog /var/log/auth.log to scan system logs for specific private IP ranges. This helps identify traffic patterns and potential security anomalies in real-time.
+Why it matters:
+In production, log files are the black box of a server. If a service crashes or a container gets compromised, checking logs is the first step. Knowing how to securely manage file permissions and efficiently filter massive log files with grep is a daily requirement for any DeVops or Cloud Engineer.
+Tomorrow: Diving deeper into Bash Scripting and automation!
+What is your favourite Linux command for log analysis? Let me know in the comments!
+#Day4 #45DaysofDevOps #Linux #DevOps #CloudComputing #Bash #Python #Automation #Infosec #CloudSupport #DevOpsAus
