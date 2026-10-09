@@ -46,6 +46,9 @@ Begin with [Day 1](./Day01_Linux_Basics/README.md) and follow the roadmap. Each 
 - LinkedIn:linkedin.com/in/mohdabdulgaffar
 - GitHub:github.com/abdul5ops
 
+- [x] Day 14: IT Ticket Management Script (ITSM, Bash, Ticketing) → [Link](./Day14-IT-Ticket-Management/)
+- [ ] 
+
 ## 📢 Spread the Word
 
 Share your journey with your network. Tag me on LinkedIn — let's learn together!
